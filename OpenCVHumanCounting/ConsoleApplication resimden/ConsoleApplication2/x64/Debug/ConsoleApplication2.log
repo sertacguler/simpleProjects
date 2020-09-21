@@ -1,0 +1,17 @@
+﻿Build started 08.09.2017 18:27:03.
+     1>Project "D:\Uygulamalar\tez biti bitiyor\ConsoleApplication resimden\ConsoleApplication2\ConsoleApplication2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include\opencv /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\ConsoleApplication2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ConsoleApplication2.cpp
+         ConsoleApplication2.cpp
+     1>ConsoleApplication2.cpp(109): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 ConsoleApplication2.cpp(104) : definition of 'i' ignored
+                 ConsoleApplication2.cpp(62) : definition of 'i' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Uygulamalar\tez biti bitiyor\ConsoleApplication resimden\x64\Debug\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Uygulamalar\tez biti bitiyor\ConsoleApplication resimden\x64\Debug\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Uygulamalar\tez biti bitiyor\ConsoleApplication resimden\x64\Debug\ConsoleApplication2.lib" /MACHINE:X64 x64\Debug\ConsoleApplication2.obj
+         x64\Debug\stdafx.obj
+         ConsoleApplication2.vcxproj -> D:\Uygulamalar\tez biti bitiyor\ConsoleApplication resimden\x64\Debug\ConsoleApplication2.exe
+     1>Done Building Project "D:\Uygulamalar\tez biti bitiyor\ConsoleApplication resimden\ConsoleApplication2\ConsoleApplication2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56

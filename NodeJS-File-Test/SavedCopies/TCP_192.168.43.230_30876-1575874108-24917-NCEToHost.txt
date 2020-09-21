@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<InsertPatientVitals xmlns="http://tempuri.org/">
+<insertDateTime>20191209064827</insertDateTime>
+<uniquePatientId></uniquePatientId>
+<patientName>Arm</patientName>
+<patientLastName>oncu</patientLastName>
+<patientSecondLastName></patientSecondLastName>
+<patientRoom></patientRoom>
+<patientBed></patientBed>
+<deviceLocationID>1005</deviceLocationID>
+<clinicianID></clinicianID>
+<clinicianID2></clinicianID2>
+<clinicianFirstName></clinicianFirstName>
+<clinicianLastName></clinicianLastName>
+<temperature></temperature>
+<temperatureMode></temperatureMode>
+<heartRate>82</heartRate>
+<so2>96</so2>
+<diastolic>0</diastolic>
+<systolic>0</systolic>
+<respiratoryRate></respiratoryRate>
+<patientHeight></patientHeight>
+<patientWeight></patientWeight>
+<patientBMI></patientBMI>
+<patientPain></patientPain>
+<o2FlowRate>0</o2FlowRate>
+<o2Concentration>0</o2Concentration>
+<o2Method>0</o2Method>
+<o2Location>0</o2Location>
+<nibppatientposition>0</nibppatientposition>
+<nibpcuffsize>0</nibpcuffsize>
+<nibpcuffsite>0</nibpcuffsite>
+<deviceID>100011060619</deviceID>
+<deviceModel>VSM 6000 Series</deviceModel>
+<customData></customData>
+</InsertPatientVitals>
+</soap:Body>
+</soap:Envelope>
